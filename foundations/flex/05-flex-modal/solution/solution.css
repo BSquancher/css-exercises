@@ -60,6 +60,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  align-items: center;
 }
 
 button.cancel {
