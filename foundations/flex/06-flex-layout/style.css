@@ -45,6 +45,7 @@ ul{
   align-items: flex-end;
   /* places footer at bottom*/
   margin-top: auto;
+  background: lightgray;
 }
 
 .header .left-links{
