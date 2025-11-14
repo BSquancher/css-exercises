@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+ 
 }
 
 img {
@@ -16,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -38,22 +42,26 @@ ul{
 .footer{
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  /* places footer at bottom*/
+  margin-top: auto;
 }
 
 .header .left-links{
   display: flex;
-  gap: 10px;
+  gap: 25px;
 }
 
 .header .right-links{
   display: flex;
-  gap: 10px;
+  gap: 25px;
   margin-right: 25px;
 }
 
 .footer .left-links{
   display: flex;
-  gap: 10px;
+  gap: 25px;
+
 }
 
 .footer .right-links{
@@ -67,3 +75,22 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
+
+/* links pink when hovered*/
+
+a:hover{
+  color: hotpink;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  /* centers the content*/
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
